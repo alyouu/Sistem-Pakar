@@ -24,7 +24,8 @@ siklus inferensi, kesimpulan, alasan, dan catatan batas keberlakuan.
 | Kode | Sumber |
 |------|--------|
 
-| S1 | Badan Nasional Penanggulangan Bencana (BNPB), *Pengenalan Karakteristik Bencana dan Upaya Mitigasinya*, https://bnpb.go.id/storage/app/media/uploads/migration/pubs/470.pdf, diakses 12 Nov 2026 |
+| S1 | 
+Badan Nasional Penanggulangan Bencana (BNPB), *Pengenalan Karakteristik Bencana dan Upaya Mitigasinya*, https://bnpb.go.id/storage/app/media/uploads/migration/pubs/470.pdf, diakses 12 Nov 2026 |
 
 | S2 | Kementerian Energi dan Sumber Daya Mineral (ESDM), *Pengenalan Gerakan Tanah*, https://www.esdm.go.id/assets/media/content/Pengenalan_Gerakan_Tanah.pdf, diakses 12 Nov 2026 |
 
