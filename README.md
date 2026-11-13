@@ -1,11 +1,11 @@
 # Sistem Pakar
 |Deteksi Potensi Bencana Hidrogeologi Tanah Longsor|
 
-1. Nama dan NIM
+## 1. Nama dan NIM
 - Nama: ALYA ZULFADILA
 - NIM: F1D02510102
 
-2. Topik dan Cara Menjalankan Program
+## 2. Topik dan Cara Menjalankan Program
 **Topik:** Deteksi potensi bencana hidrogeologi berupa tanah longsor. Program bertanya beberapa gejala/fakta
 di lapangan (dijawab `y`/`t`), lalu menarik kesimpulan kewaspadaan longsor dengan metode Forward Chaining.
 
@@ -19,7 +19,7 @@ python main.py
 Program akan membaca `kb.json`, menanyakan 7 fakta dasar satu per satu, lalu mencetak
 siklus inferensi, kesimpulan, alasan, dan catatan batas keberlakuan.
 
-3. Daftar Sumber & Tabel Aturan
+## 3. Daftar Sumber & Tabel Aturan
    
 | Kode | Sumber |
 |------|--------|
@@ -44,7 +44,7 @@ Badan Nasional Penanggulangan Bencana (BNPB), *Pengenalan Karakteristik Bencana 
 
 *Catatan chaining:* hasil R1 dipakai R2; hasil R2 dan R3 dipakai R4; hasil R4 dipakai R5; hasil R5 dipakai R6.
 
-4. Metode: Forward Chaining
+## 4. Metode: Forward Chaining
 Saya memilih **Forward Chaining (FC)** karena kasus longsor bersifat *data-driven* yakni petugas/diagnosis
 dimulai dari gejala yang terlihat (hujan, retakan, genangan) menuju penyebab dan kesimpulan,
 sesuai cara kerja FC dari fakta menuju kesimpulan.
@@ -59,7 +59,7 @@ Cara kerjanya:
 5. Kesimpulan akhir = hasil aturan yang tidak lagi menjadi syarat aturan lain yang dijalankan.
    Program juga menelusuri **alasan** secara mundur dari riwayat aturan.
 
-5. Tiga Kasus Uji
+## 5. Tiga Kasus Uji
 
 | # | Jawaban "y" | Kesimpulan yang diharapkan |
 |---|-------------|----------------------------|
@@ -74,10 +74,10 @@ Cara kerjanya:
 [Kasus 3]
 <img width="1920" height="673" alt="Screenshot 3" src="https://github.com/user-attachments/assets/8ffa8092-883a-40e2-b41d-c9ec02a64e0b" />
 
-6. Batas Keberlakuan
+## 6. Batas Keberlakuan
 Catatan: Aturan berasal dari S1 (Badan Nasional Penanggulangan Bencana (BNPB)); S2 (Kementerian Energi
 dan Sumber Daya Mineral (ESDM)); S3 (Jurnal Dialog Penanggulangan Bencana Vol. 8 No. 2) dan hanya mencakup
 faktor hidrogeologi dasar. Hasil ini adalah saran kewaspadaan, bukan keputusan ahli mitigasi bencana pasti.
 
-7. Penggunaan AI
+## 7. Penggunaan AI
 Selama pengerjaan tugas ini saya dibantu alat bantu AI (Kimi) untuk mengoreksi struktur program yang saya buat ini.
