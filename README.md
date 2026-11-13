@@ -1,5 +1,5 @@
 # Sistem Pakar
-| Deteksi Potensi Bencana Hidrogeologi Tanah Longsor |
+| Sistem Deteksi Potensi Bencana Hidrogeologi Tanah Longsor |
 
 ## 1. Nama dan NIM
 - Nama: ALYA ZULFADILA
