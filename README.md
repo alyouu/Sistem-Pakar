@@ -9,7 +9,7 @@
 **Topik:** Deteksi potensi bencana hidrogeologi berupa tanah longsor. Program bertanya beberapa gejala/fakta
 di lapangan (dijawab `y`/`t`), lalu menarik kesimpulan kewaspadaan longsor dengan metode Forward Chaining.
 
-- **Bahasa:** Python (tanpa library eksternal)
+- **Bahasa:** Python 3 (tanpa library eksternal)
 - **File:** `kb.json` (basis pengetahuan) dan `main.py` (mesin inferensi)
 
 **Cara menjalankan:**
@@ -75,7 +75,7 @@ Cara kerjanya:
 <img width="1920" height="673" alt="Screenshot 3" src="https://github.com/user-attachments/assets/8ffa8092-883a-40e2-b41d-c9ec02a64e0b" />
 
 ## 6. Batas Keberlakuan
-Catatan: Aturan berasal dari S1 (Badan Nasional Penanggulangan Bencana (BNPB)),S2 (Kementerian Energi
+Aturan berasal dari S1 (Badan Nasional Penanggulangan Bencana (BNPB)),S2 (Kementerian Energi
 dan Sumber Daya Mineral (ESDM)), S3 (Jurnal Dialog Penanggulangan Bencana Vol. 8 No. 2) dan hanya mencakup
 faktor hidrogeologi dasar. Hasil ini adalah saran kewaspadaan, bukan keputusan ahli mitigasi bencana pasti.
 
