@@ -67,10 +67,11 @@ Cara kerjanya:
 | 2 | muncul retakan di permukaan tanah saja | **tidak ada** (kasus negatif) |
 | 3 | hujan lebat berkepanjangan, tanah lempung tebal, muncul retakan (tanpa lereng curam/vegetasi) | potensi tanah longsor tinggi |
 
-![Kasus 1]<img width="1915" height="739" alt="Screenshot 1" src="https://github.com/user-attachments/assets/35a145e1-c2b1-428e-98d5-87f034c2ca14" />
-![Kasus 2 - kasus negatif]
+[Kasus 1]
+<img width="1915" height="739" alt="Screenshot 1" src="https://github.com/user-attachments/assets/35a145e1-c2b1-428e-98d5-87f034c2ca14" />
+[Kasus 2 - kasus negatif]
 <img width="1920" height="661" alt="Screenshot 2" src="https://github.com/user-attachments/assets/956a76ac-eb40-41f3-bab8-05616eb47171" />
-![Kasus 3]
+[Kasus 3]
 <img width="1920" height="673" alt="Screenshot 3" src="https://github.com/user-attachments/assets/8ffa8092-883a-40e2-b41d-c9ec02a64e0b" />
 
 6. Batas Keberlakuan
