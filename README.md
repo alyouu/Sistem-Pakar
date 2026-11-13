@@ -42,7 +42,7 @@ Badan Nasional Penanggulangan Bencana (BNPB), *Pengenalan Karakteristik Bencana 
 | R5 | IF lereng tidak stabil **DAN** muncul retakan di permukaan tanah | THEN potensi tanah longsor tinggi | S3 |
 | R6 | IF potensi tanah longsor tinggi **DAN** ada permukiman di kaki lereng | THEN evakuasi dini warga diperlukan | S3 |
 
-*Catatan chaining:* hasil R1 dipakai R2; hasil R2 dan R3 dipakai R4; hasil R4 dipakai R5; hasil R5 dipakai R6.
+*Catatan chaining:* hasil R1 dipakai R2, hasil R2 dan R3 dipakai R4, hasil R4 dipakai R5, hasil R5 dipakai R6.
 
 ## 4. Metode: Forward Chaining
 Saya memilih **Forward Chaining (FC)** karena kasus longsor bersifat *data-driven* yakni petugas/diagnosis
