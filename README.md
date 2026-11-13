@@ -58,6 +58,7 @@ Cara kerjanya:
    Program juga menelusuri **alasan** secara mundur dari riwayat aturan.
 
 5. Tiga Kasus Uji
+
 | # | Jawaban "y" | Kesimpulan yang diharapkan |
 |---|-------------|----------------------------|
 | 1 | hujan lebat berkepanjangan, genangan air di lereng (t), tanah lempung tebal, lereng curam, vegetasi jarang, muncul retakan, ada permukiman | evakuasi dini warga diperlukan |
