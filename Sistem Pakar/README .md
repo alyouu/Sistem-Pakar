@@ -60,9 +60,12 @@ Cara kerjanya:
 | 2 | muncul retakan di permukaan tanah saja | **tidak ada** (kasus negatif) |
 | 3 | hujan lebat berkepanjangan, tanah lempung tebal, muncul retakan (tanpa lereng curam/vegetasi) | potensi tanah longsor tinggi |
 
-![Kasus 1](screenshot/kasus1.png)
-![Kasus 2 - kasus negatif](screenshot/kasus2.png)
-![Kasus 3](screenshot/kasus3.png)
+![Kasus 1]
+(screenshot1.png)
+![Kasus 2 - kasus negatif]
+(screenshot2.png)
+![Kasus 3]
+(screenshot3.png)
 
 6. Batas Keberlakuan
 Catatan: Aturan berasal dari S1 (Badan Nasional Penanggulangan Bencana (BNPB)); S2 (Kementerian Energi
