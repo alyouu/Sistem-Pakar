@@ -1,10 +1,8 @@
 import json
-
-# baca file basis pengetahuan
+# baca file pengetahuan
 file_kb = open("kb.json", "r", encoding="utf-8")
 kb = json.load(file_kb)
 file_kb.close()
-
 aturan_aturan = kb["aturan"]
 
 # cari daftar pertanyaan (syarat yang tidak pernah menjadi hasil)
@@ -41,16 +39,13 @@ siklus = 1
 
 while True:
     ada_aturan_baru = False
-    
     for aturan in aturan_aturan:
         hasil = aturan["maka"]
-        
         # lewati kalau hasilnya sudah ada di fakta terkumpul
         if hasil in fakta_terkumpul:
             continue
-            
         syarat_terpenuhi = False
-        
+
         # cek kecocokan syarat berdasarkan mode
         if aturan["mode"] == "dan":
             syarat_terpenuhi = True
@@ -72,11 +67,9 @@ while True:
             
             ada_aturan_baru = True
             siklus += 1
-            break 
-            
+            break  
     if ada_aturan_baru == False:
         break
-
 print("-" * 50)
 
 # penentuan kesimpulan akhir (hasil yang tidak dipakai lagi untuk syarat)
