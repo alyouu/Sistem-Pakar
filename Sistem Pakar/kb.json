@@ -1,0 +1,71 @@
+{
+  "judul": "Deteksi Potensi Bencana Hidrogeologi: Tanah Longsor",
+  "batas": "Aturan berasal dari 2 dokumen resmi BNPB dan Kementerian ESDM serta 1 jurnal BNPB, dan hanya mencakup faktor hidrogeologi dasar. Hasil ini adalah saran kewaspadaan, bukan keputusan ahli mitigasi bencana pasti.",
+  "sumber": {
+    "S1": "Badan Nasional Penanggulangan Bencana (BNPB), 'Pengenalan Karakteristik Bencana dan Upaya Mitigasinya', https://bnpb.go.id/storage/app/media/uploads/migration/pubs/470.pdf, diakses 13 Nov 2026",
+    "S2": "Kementerian Energi dan Sumber Daya Mineral (ESDM), 'Pengenalan Gerakan Tanah', https://www.esdm.go.id/assets/media/content/Pengenalan_Gerakan_Tanah.pdf, diakses 13 Nov 2026",
+    "S3": "Jurnal Dialog Penanggulangan Bencana Vol. 8 No. 2, 'Analisis Penyebab Tanah Longsor di Kabupaten Ponorogo' oleh Suprapto dkk., Badan Nasional Penanggulangan Bencana (BNPB), https://jdpb.bnpb.go.id/index.php/jurnal/article/download/121/121, diakses 13 Nov 2026"
+  },
+  "aturan": [
+    {
+      "id": "R1",
+      "syarat": [
+        "hujan lebat berkepanjangan",
+        "genangan air di lereng"
+      ],
+      "mode": "atau",
+      "maka": "tanah jenuh air",
+      "sumber": "S1"
+    },
+    {
+      "id": "R2",
+      "syarat": [
+        "tanah jenuh air",
+        "tanah lempung tebal"
+      ],
+      "mode": "dan",
+      "maka": "daya dukung tanah menurun",
+      "sumber": "S1"
+    },
+    {
+      "id": "R3",
+      "syarat": [
+        "lereng curam",
+        "vegetasi jarang"
+      ],
+      "mode": "dan",
+      "maka": "gaya penahan lereng lemah",
+      "sumber": "S2"
+    },
+    {
+      "id": "R4",
+      "syarat": [
+        "daya dukung tanah menurun",
+        "gaya penahan lereng lemah"
+      ],
+      "mode": "atau",
+      "maka": "lereng tidak stabil",
+      "sumber": "S1"
+    },
+    {
+      "id": "R5",
+      "syarat": [
+        "lereng tidak stabil",
+        "muncul retakan di permukaan tanah"
+      ],
+      "mode": "dan",
+      "maka": "potensi tanah longsor tinggi",
+      "sumber": "S3"
+    },
+    {
+      "id": "R6",
+      "syarat": [
+        "potensi tanah longsor tinggi",
+        "ada permukiman di kaki lereng"
+      ],
+      "mode": "dan",
+      "maka": "evakuasi dini warga diperlukan",
+      "sumber": "S3"
+    }
+  ]
+}
