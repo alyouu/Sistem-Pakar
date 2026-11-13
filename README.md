@@ -1,3 +1,4 @@
+# Sistem Pakar
 |Deteksi Potensi Bencana Hidrogeologi Tanah Longsor|
 
 1. Nama dan NIM
@@ -79,5 +80,3 @@ faktor hidrogeologi dasar. Hasil ini adalah saran kewaspadaan, bukan keputusan a
 
 7. Penggunaan AI
 Selama pengerjaan tugas ini saya dibantu alat bantu AI (Kimi) untuk mengoreksi struktur program yang saya buat ini.
-# Sistem Pakar
-Tugas 5 AI
