@@ -75,8 +75,8 @@ Cara kerjanya:
 <img width="1920" height="673" alt="Screenshot 3" src="https://github.com/user-attachments/assets/8ffa8092-883a-40e2-b41d-c9ec02a64e0b" />
 
 ## 6. Batas Keberlakuan
-Catatan: Aturan berasal dari S1 (Badan Nasional Penanggulangan Bencana (BNPB)); S2 (Kementerian Energi
-dan Sumber Daya Mineral (ESDM)); S3 (Jurnal Dialog Penanggulangan Bencana Vol. 8 No. 2) dan hanya mencakup
+Catatan: Aturan berasal dari S1 (Badan Nasional Penanggulangan Bencana (BNPB)),S2 (Kementerian Energi
+dan Sumber Daya Mineral (ESDM)), S3 (Jurnal Dialog Penanggulangan Bencana Vol. 8 No. 2) dan hanya mencakup
 faktor hidrogeologi dasar. Hasil ini adalah saran kewaspadaan, bukan keputusan ahli mitigasi bencana pasti.
 
 ## 7. Penggunaan AI
